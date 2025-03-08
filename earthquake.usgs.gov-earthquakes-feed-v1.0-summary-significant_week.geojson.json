@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1741455705000,
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+    "title": "USGS Significant Earthquakes, Past Week",
+    "status": 200,
+    "api": "1.14.1",
+    "count": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "2025 Orcas Island, Washington",
+        "time": 1741006957850,
+        "updated": 1741451243810,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62078906",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62078906.geojson",
+        "felt": 11380,
+        "cdi": 4.3,
+        "mmi": 4.227,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 742,
+        "net": "uw",
+        "code": "62078906",
+        "ids": ",ew1741006960,at00ssjtkc,uw62078906,us6000pwli,",
+        "sources": ",ew,at,uw,us,",
+        "types": ",associate,dyfi,earthquake-name,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shake-alert,shakemap,",
+        "nst": 82,
+        "dmin": 0.00635,
+        "rms": 0.18,
+        "gap": 31,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.5 - 2025 Orcas Island, Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.80516666666666,
+          48.61116666666667,
+          15.81
+        ]
+      },
+      "id": "uw62078906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.8,
+        "place": "2 km ESE of North Hollywood, CA",
+        "time": 1740982425110,
+        "updated": 1741428923123,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41070112",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41070112.geojson",
+        "felt": 10435,
+        "cdi": 4.3,
+        "mmi": 3.776,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 652,
+        "net": "ci",
+        "code": "41070112",
+        "ids": ",ci41070112,us6000pwk5,",
+        "sources": ",ci,us,",
+        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
+        "nst": 181,
+        "dmin": 0.01579,
+        "rms": 0.24,
+        "gap": 21,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 3.8 - 2 km ESE of North Hollywood, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3533333,
+          34.1615,
+          15.59
+        ]
+      },
+      "id": "ci41070112"
+    }
+  ],
+  "bbox": [
+    -122.80516666667,
+    34.1615,
+    15.59,
+    -118.3533333,
+    48.611166666667,
+    15.81
+  ]
+}
