@@ -1,3 +1,3 @@
 # Scheduled scraper
 
-For https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson
+For https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson
