@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741456186000,
+    "generated": 1741501997000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
     "title": "USGS Significant Earthquakes, Past Week",
     "status": 200,
@@ -15,11 +15,11 @@
         "mag": 4.5,
         "place": "2025 Orcas Island, Washington",
         "time": 1741006957850,
-        "updated": 1741451243810,
+        "updated": 1741492830337,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62078906",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62078906.geojson",
-        "felt": 11380,
+        "felt": 11388,
         "cdi": 4.3,
         "mmi": 4.227,
         "alert": "green",
