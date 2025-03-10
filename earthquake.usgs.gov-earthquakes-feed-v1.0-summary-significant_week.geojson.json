@@ -1,25 +1,105 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741501997000,
+    "generated": 1741588579000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
     "title": "USGS Significant Earthquakes, Past Week",
     "status": 200,
     "api": "1.14.1",
-    "count": 2
+    "count": 3
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.5,
+        "place": "36 km NNE of Olonkinbyen, Svalbard and Jan Mayen",
+        "time": 1741573994389,
+        "updated": 1741583890897,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pxvx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pxvx.geojson",
+        "felt": 3,
+        "cdi": 8.3,
+        "mmi": 8.063,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 652,
+        "net": "us",
+        "code": "6000pxvx",
+        "ids": ",us6000pxvx,at00ssvz3d,pt25069050,",
+        "sources": ",us,at,pt,",
+        "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 69,
+        "dmin": 4.587,
+        "rms": 1.23,
+        "gap": 44,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.5 - 36 km NNE of Olonkinbyen, Svalbard and Jan Mayen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1925,
+          71.1971,
+          10
+        ]
+      },
+      "id": "us6000pxvx"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.06,
+        "place": "10 km NW of Malibu, CA",
+        "time": 1741550600340,
+        "updated": 1741588411277,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41075584",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41075584.geojson",
+        "felt": 6630,
+        "cdi": 3.9,
+        "mmi": 4.301,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 644,
+        "net": "ci",
+        "code": "41075584",
+        "ids": ",ew1741550600,ci41075584,at00ssvh1i,us6000pxua,",
+        "sources": ",ew,ci,at,us,",
+        "types": ",dyfi,focal-mechanism,impact-link,losspager,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shake-alert,shakemap,",
+        "nst": 136,
+        "dmin": 0.06366,
+        "rms": 0.31,
+        "gap": 122,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 4.1 - 10 km NW of Malibu, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8945,
+          34.0681667,
+          11.38
+        ]
+      },
+      "id": "ci41075584"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.5,
         "place": "2025 Orcas Island, Washington",
         "time": 1741006957850,
-        "updated": 1741492830337,
+        "updated": 1741578531619,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62078906",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62078906.geojson",
-        "felt": 11388,
+        "felt": 11395,
         "cdi": 4.3,
         "mmi": 4.227,
         "alert": "green",
@@ -48,54 +128,14 @@
         ]
       },
       "id": "uw62078906"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 3.8,
-        "place": "2 km ESE of North Hollywood, CA",
-        "time": 1740982425110,
-        "updated": 1741428923123,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41070112",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41070112.geojson",
-        "felt": 10435,
-        "cdi": 4.3,
-        "mmi": 3.776,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 652,
-        "net": "ci",
-        "code": "41070112",
-        "ids": ",ci41070112,us6000pwk5,",
-        "sources": ",ci,us,",
-        "types": ",dyfi,focal-mechanism,moment-tensor,nearby-cities,origin,phase-data,scitech-link,shakemap,",
-        "nst": 181,
-        "dmin": 0.01579,
-        "rms": 0.24,
-        "gap": 21,
-        "magType": "mw",
-        "type": "earthquake",
-        "title": "M 3.8 - 2 km ESE of North Hollywood, CA"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.3533333,
-          34.1615,
-          15.59
-        ]
-      },
-      "id": "ci41070112"
     }
   ],
   "bbox": [
     -122.80516666667,
-    34.1615,
-    15.59,
-    -118.3533333,
-    48.611166666667,
+    34.0681667,
+    10,
+    -8.1925,
+    71.1971,
     15.81
   ]
 }
