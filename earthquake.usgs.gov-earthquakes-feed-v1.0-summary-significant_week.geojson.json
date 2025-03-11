@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741588579000,
+    "generated": 1741675355000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
     "title": "USGS Significant Earthquakes, Past Week",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 2
   },
   "features": [
     {
@@ -15,17 +15,17 @@
         "mag": 6.5,
         "place": "36 km NNE of Olonkinbyen, Svalbard and Jan Mayen",
         "time": 1741573994389,
-        "updated": 1741583890897,
+        "updated": 1741661836212,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pxvx",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000pxvx.geojson",
-        "felt": 3,
+        "felt": 7,
         "cdi": 8.3,
-        "mmi": 8.063,
+        "mmi": 8.054,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 652,
+        "sig": 656,
         "net": "us",
         "code": "6000pxvx",
         "ids": ",us6000pxvx,at00ssvz3d,pt25069050,",
@@ -55,17 +55,17 @@
         "mag": 4.06,
         "place": "10 km NW of Malibu, CA",
         "time": 1741550600340,
-        "updated": 1741588411277,
+        "updated": 1741674684401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41075584",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41075584.geojson",
-        "felt": 6630,
-        "cdi": 3.9,
-        "mmi": 4.301,
+        "felt": 6727,
+        "cdi": 4,
+        "mmi": 4.28,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
-        "sig": 644,
+        "sig": 654,
         "net": "ci",
         "code": "41075584",
         "ids": ",ew1741550600,ci41075584,at00ssvh1i,us6000pxua,",
@@ -88,54 +88,14 @@
         ]
       },
       "id": "ci41075584"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "2025 Orcas Island, Washington",
-        "time": 1741006957850,
-        "updated": 1741578531619,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62078906",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/uw62078906.geojson",
-        "felt": 11395,
-        "cdi": 4.3,
-        "mmi": 4.227,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 742,
-        "net": "uw",
-        "code": "62078906",
-        "ids": ",ew1741006960,at00ssjtkc,uw62078906,us6000pwli,",
-        "sources": ",ew,at,uw,us,",
-        "types": ",associate,dyfi,earthquake-name,impact-link,losspager,moment-tensor,oaf,origin,phase-data,shake-alert,shakemap,",
-        "nst": 82,
-        "dmin": 0.00635,
-        "rms": 0.18,
-        "gap": 31,
-        "magType": "ml",
-        "type": "earthquake",
-        "title": "M 4.5 - 2025 Orcas Island, Washington"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.80516666666666,
-          48.61116666666667,
-          15.81
-        ]
-      },
-      "id": "uw62078906"
     }
   ],
   "bbox": [
-    -122.80516666667,
+    -118.8945,
     34.0681667,
     10,
     -8.1925,
     71.1971,
-    15.81
+    11.38
   ]
 }
