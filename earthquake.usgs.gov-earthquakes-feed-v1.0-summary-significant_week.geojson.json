@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1741675355000,
+    "generated": 1741761837000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
     "title": "USGS Significant Earthquakes, Past Week",
     "status": 200,
@@ -55,11 +55,11 @@
         "mag": 4.06,
         "place": "10 km NW of Malibu, CA",
         "time": 1741550600340,
-        "updated": 1741674684401,
+        "updated": 1741761181914,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41075584",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41075584.geojson",
-        "felt": 6727,
+        "felt": 6741,
         "cdi": 4,
         "mmi": 4.28,
         "alert": "green",
